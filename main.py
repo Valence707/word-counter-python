@@ -43,6 +43,7 @@ def main():
 
         # Print word and character count.
         print(F"""
+FILES: {text_file_names}
 WORDS: {len(combined_file_words)}
 CHARACTERS: {len(" ".join(combined_file_words))}
         """)
